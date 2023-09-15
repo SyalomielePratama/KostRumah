@@ -63,7 +63,7 @@ button.tombol-hubungi:hover{
     background-repeat: no-repeat;
 }
 
-.container-fluid .bg-hitam{
+.container-fluid.bg-hitam{
   background: black;
   height: 100vh;
   opacity: 50%;
