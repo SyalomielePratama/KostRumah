@@ -102,6 +102,12 @@ button.tombol-hubungi:hover{
     }
 }
 
+@media screen and (max-width: 380px){
+  .img-hero {
+      width: -webkit-fill-available;
+    }
+}
+
 @media screen and (max-width: 477px){
     .kotak-harga h1{
         font-size: large;
