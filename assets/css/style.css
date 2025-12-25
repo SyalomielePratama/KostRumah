@@ -1,144 +1,172 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-.hero-tagline{
-    color: #152136;
+.hero-tagline {
+    color: #ffffff;
+    /* background-color: #152136; */
+    /* padding-left: 100px; */
     /* height: 47%; */
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
 
-.tombol-hubungi{
+.tombol-hubungi {
     color: #fff;
     background-color: #152136;
 }
 
-button.tombol-hubungi:hover{
+button.tombol-hubungi:hover {
+    transition: all 0.3s ease-in-out;
     color: #fff;
-    background-color: #405374;
+    background-color: #122a53;
 }
 
-#hero{
+#hero {
+  height: 100vh;
+  width: 100vw;
+   background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('../imgs/bg.jpeg');
+  background-size: auto 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-hero{
+    background-color: #152136;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
-.img-hero{
+.img-hero {
     height: 100%;
     z-index: 1;
 }
 
-*{
+* {
     z-index: 2;
 }
 
-.tagline-keunggulan{
+.tagline-keunggulan {
     background-color: #152136;
     color: #fff;
 }
 
-.keunggulan-list{
+.keunggulan-list {
     border-color: #152136 !important;
 }
 
-.icon-check{
+.icon-check {
     font-size: 40px;
 }
 
-.penawaran-list{
+.penawaran-list {
     border: none !important;
     color: #fff !important;
     background-color: #152136 !important;
 }
 
-#fitur{
+#fitur {
     height: 100vh;
     background-image: url(../imgs/rumah.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.container-fluid.bg-hitam{
-  background: black;
-  height: 100vh;
-  opacity: 50%;
-  position: absolute;
+.container-fluid.bg-hitam {
+    background: black;
+    height: 100vh;
+    opacity: 50%;
+    position: absolute;
 }
 
 h1.fw-bold.text-white.textt {
-    position: relative
+    position: relative;
 }
 
-.kotak{
+.kotak {
     background-color: #152136;
     opacity: 50%;
     height: 100vh;
     z-index: 1;
 }
 
-.judul-fitur{
+.judul-fitur {
     padding-top: 20vh !important;
-    padding-bottom: 30vh !important;
+    padding-bottom: 20vh !important;
 }
 
-.icon-wrapper i{
+.icon-wrapper i {
     font-size: 10vh;
 }
 
-#simulasi{
+#simulasi {
     background-color: #152136;
 }
 
-.kotak-harga{
+.kotak-harga {
     background-color: #fff;
     color: #152136;
 }
 
-@media screen and (max-width: 991px){
-    .img-hero{
-        width: 75%;
-        height: auto;
+
+@media screen and (max-width: 991px) {
+    .inverted {
+        mix-blend-mode: difference;
+        color: white;
+        text-shadow: none;
     }
- 
-@media screen and (max-width: 767px){
-    .img-hero{
-        width: 1150px;
-        height: auto;
+
+    .img-hero {
+        /* width: 80%; */
+        /* height: auto; */
         opacity: 60%;
     }
 
-    .hero-tagline{
-        color: #fff;
-    }
-
-    #hero{
-      background: black;
-    }
+    /* #hero {
+        background: black;
+    } */
 }
 
-@media screen and (max-width: 380px){
-   .img-hero{
-        width: 1100px;
-        height: auto;
+@media screen and (max-width: 767px) {
+    .img-hero {
+        /* width: 1150px; */
+        /* height: auto; */
         opacity: 60%;
     }
-  
-  .hero-tagline{
+
+    .hero-tagline {
         color: #fff;
     }
-  
-   #hero{
-      background: black;
-    }
+
+    /* #hero {
+        background: black;
+    } */
 }
 
-@media screen and (max-width: 477px){
-    .kotak-harga h1{
+@media screen and (max-width: 380px) {
+    .img-hero {
+        /* width: 1100px; */
+        /* height: auto; */
+        opacity: 60%;
+    }
+
+    .hero-tagline {
+        color: #fff;
+    }
+
+    /* #hero {
+        background: black;
+    } */
+}
+
+@media screen and (max-width: 477px) {
+    .kotak-harga h1 {
         font-size: large;
     }
 }
